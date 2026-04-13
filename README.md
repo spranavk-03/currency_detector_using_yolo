@@ -120,7 +120,7 @@
 </ul>
 
 <p align="center">
-  <img src="./images/RoboFlowTrainModelPage.png" width="600"/>
+  <img src="./images/RoboFlowTrainModelPage.jpeg" width="600"/>
 </p>
 
 <ul>
@@ -129,7 +129,7 @@
 </ul>
 
 <p align="center">
-  <img src="./images/RoboFlowResultsPage.png" width="600"/>
+  <img src="./images/RoboFlowResultsPage.jpeg" width="600"/>
 </p>
 
 <hr>
@@ -143,7 +143,7 @@
 </ul>
 
 <p align="center">
-  <img src="./images/RoboFlowExportPage.png" width="600"/>
+  <img src="./images/RoboFlowExportPage.jpeg" width="600"/>
 </p>
 
 <hr>
@@ -181,7 +181,7 @@ results[0].show()
 </ul>
 
 <p align="center">
-  <img src="./images/result_example.png" width="600"/>
+  <img src="./images/result_example.jpeg" width="600"/>
 </p>
 
 <hr>
