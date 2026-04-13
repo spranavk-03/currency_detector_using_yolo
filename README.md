@@ -143,7 +143,7 @@
 </ul>
 
 <p align="center">
-  <img src="./images/RoboFlowExportPage.jpeg" width="600"/>
+  <img src="./images/RoboFlowExportPage.png" width="600"/>
 </p>
 
 <hr>
