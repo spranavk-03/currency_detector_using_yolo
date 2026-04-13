@@ -181,7 +181,7 @@ results[0].show()
 </ul>
 
 <p align="center">
-  <img src="./images/result_example.jpeg" width="600"/>
+  <img src="./images/result_example.png" width="600"/>
 </p>
 
 <hr>
