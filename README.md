@@ -194,3 +194,4 @@ results[0].show()
   <li>Implement real-time detection using webcam.</li>
   <li>Deploy on embedded systems like ESP32 or Raspberry Pi.</li>
 </ul>
+Updated README
