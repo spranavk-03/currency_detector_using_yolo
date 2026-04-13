@@ -111,5 +111,86 @@
 <hr>
 
 <h2>Step 3: Training the YOLO Model</h2>
-<li> 1. Open A Colab File ([Colab] https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolo11-object-detection-on-custom-dataset.ipynb) 
-</li>
+
+<ul>
+  <li>After creating the dataset version, click on "Train Model".</li>
+  <li>Select the YOLO model version provided by Roboflow.</li>
+  <li>Keep default settings if unsure, or adjust parameters as needed.</li>
+  <li>Start training and wait for the process to complete.</li>
+</ul>
+
+<p align="center">
+  <img src="./images/RoboFlowTrainModelPage.png" width="600"/>
+</p>
+
+<ul>
+  <li>Once training is complete, you will get metrics such as accuracy, precision, and recall.</li>
+  <li>Analyze the performance of your model using these metrics.</li>
+</ul>
+
+<p align="center">
+  <img src="./images/RoboFlowResultsPage.png" width="600"/>
+</p>
+
+<hr>
+
+<h2>Step 4: Exporting the Model</h2>
+
+<ul>
+  <li>After training, go to the "Deploy" or "Export" tab.</li>
+  <li>Select the desired format (e.g., YOLOv8, PyTorch, etc.).</li>
+  <li>Download the model weights or copy the API code.</li>
+</ul>
+
+<p align="center">
+  <img src="./images/RoboFlowExportPage.png" width="600"/>
+</p>
+
+<hr>
+
+<h2>Step 5: Running the Model</h2>
+
+<ul>
+  <li>Load the trained model in your Python environment.</li>
+  <li>Use libraries such as OpenCV and Ultralytics YOLO.</li>
+  <li>Run inference on images or live video.</li>
+</ul>
+
+<pre>
+<code>
+from ultralytics import YOLO
+import cv2
+
+model = YOLO("best.pt")
+
+img = cv2.imread("test.jpg")
+results = model(img)
+
+results[0].show()
+</code>
+</pre>
+
+<hr>
+
+<h2>Results</h2>
+
+<ul>
+  <li>The model is able to detect Indian currency notes.</li>
+  <li>Performance depends on dataset quality and training.</li>
+  <li>Works well under proper lighting and clear visibility.</li>
+</ul>
+
+<p align="center">
+  <img src="./images/result_example.png" width="600"/>
+</p>
+
+<hr>
+
+<h2>Future Improvements</h2>
+
+<ul>
+  <li>Improve dataset size and diversity.</li>
+  <li>Enhance accuracy using better augmentation techniques.</li>
+  <li>Implement real-time detection using webcam.</li>
+  <li>Deploy on embedded systems like ESP32 or Raspberry Pi.</li>
+</ul>
