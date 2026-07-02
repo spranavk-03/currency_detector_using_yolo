@@ -178,6 +178,9 @@ results[0].show()
   <li>The model is able to detect Indian currency notes.</li>
   <li>Performance depends on dataset quality and training.</li>
   <li>Works well under proper lighting and clear visibility.</li>
+  <p align="center">
+  <img src="./images/yolo_op.png" width="600"/>
+</p>
 </ul>
 
 <p align="center">
