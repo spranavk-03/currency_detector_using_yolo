@@ -191,7 +191,6 @@ results[0].show()
 <ul>
   <li>Improve dataset size and diversity.</li>
   <li>Enhance accuracy using better augmentation techniques.</li>
-  <li>Implement real-time detection using webcam.</li>
   <li>Deploy on embedded systems like ESP32 or Raspberry Pi.</li>
 </ul>
 Updated README
